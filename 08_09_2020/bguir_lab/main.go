@@ -1,12 +1,12 @@
 package main
 
 import (
-	"fmt"
 	"bufio"
+	fmt "fmt"
 	"os"
 )
 
-func main () {
+func main() {
 	var alfa string
 	fmt.Print("Enter string: ", alfa)
 	myscanner := bufio.NewScanner(os.Stdin)
@@ -21,7 +21,7 @@ func main () {
 	fmt.Scanln(&num)
 
 	for i := 0; i < len(alfa); i++ {
-		if string(alfa[i]) == "," || string(alfa[i]) == " "{
+		if string(alfa[i]) == "," || string(alfa[i]) == " " {
 			sym++
 			if sym > num {
 				total++
