@@ -1,11 +1,11 @@
 package main
 
 import (
-	"math"
 	"fmt"
+	"math"
 )
 
-func main () {
+func main() {
 	var l float64
 	fmt.Println("Enter l: ")
 	fmt.Scan(&l)

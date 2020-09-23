@@ -5,7 +5,7 @@ import (
 	"math"
 )
 
-func main () {
+func main() {
 	var a float64
 	fmt.Println("Enter a: ")
 	fmt.Scan(&a)
