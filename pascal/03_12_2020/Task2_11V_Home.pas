@@ -1,4 +1,4 @@
-﻿program task1_efimovich;
+﻿program task2_11V_home;
 
 var A: array[1..7] of real;
 var sum_otric: real;
