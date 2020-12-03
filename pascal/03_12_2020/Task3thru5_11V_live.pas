@@ -1,4 +1,4 @@
-﻿program task3thru5_11V_live;
+﻿program task3thru_11V_live;
 
 var A: array[1..3,1..5] of integer;
 var sum_otric:  integer;
@@ -32,7 +32,7 @@ for var i:=1 to 3 do begin
   end;
 end;
 
-writeln()ж
+writeln();
 writeln('Сумма отрицательных элементов: ', sum_otric);
 writeln('Количество элементов, стоящих на четных местах: ', n_chet);
 writeln('Количество элментов, равных 0, 1 или 2: ', zero_one_two);
